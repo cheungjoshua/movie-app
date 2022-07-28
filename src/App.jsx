@@ -52,7 +52,7 @@ function App() {
 
   // Create indivials movie card components
   const movieCard = movies.map((data) => {
-    return <MovieCard key={data.id} detail={data} />;
+    return <MovieCard key={data.id} {...data} />;
   });
 
   // Create Genres drop down component

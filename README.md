@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Movie App
+
+This project mainly idea is practice using Axios to do API get request from The Moive Database to render and display. Able to get used the process of the async/await in javascript by doing this project.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
