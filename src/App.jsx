@@ -7,8 +7,6 @@ const API_KEY = process.env.REACT_APP_API_KEY;
 const API_URL = "https://api.themoviedb.org/3";
 const SEARCH = "https://api.themoviedb.org/3/search/company";
 
-//https://api.themoviedb.org/3/discover/movie?api_key=ed4fecd45ab8041d6f5b86745794548c&with_genres=28&page=1
-
 function App() {
   const [movies, setMovies] = useState([]);
   const [genres, setGenres] = useState([{ id: 0, name: "None" }]);
