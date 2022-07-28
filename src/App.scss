@@ -1,0 +1,18 @@
+body {
+  width: 100vw;
+}
+
+.movies_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+  div {
+    width: 20em;
+    img {
+      width: 20em;
+    }
+  }
+}
