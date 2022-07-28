@@ -3,7 +3,7 @@ import axios from "axios";
 import MovieCard from "./MovieCard";
 import "./App.scss";
 
-const API_KEY = "ed4fecd45ab8041d6f5b86745794548c";
+const API_KEY = process.env.REACT_APP_API_KEY;
 const API_URL = "https://api.themoviedb.org/3";
 const SEARCH = "https://api.themoviedb.org/3/search/company";
 
