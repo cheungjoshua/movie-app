@@ -1,5 +1,7 @@
 # Movie App
 
+A simple movie app that user can render movies in different category by click the genre from the drop down menu in Nav.
+
 This project mainly idea is practice using Axios to do API get request from The Moive Database to render and display. Able to get used the process of the async/await in javascript by doing this project. And learn using React-Bootstrap and Bootstrap for components and style.
 
 ## Available Scripts
