@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.scss";
 import Nav from "./components/Nav";
-import MovieCard from "./MovieCard";
+import MovieCard from "./components/MovieCard";
 
 const API_KEY = process.env.REACT_APP_API_KEY;
 const API_URL = "https://api.themoviedb.org/3";
@@ -36,7 +36,7 @@ function App() {
     <div className="App">
       <Nav setMovies={setMovies} />
 
-      <div className="movies_container">{movieCard}</div>
+      <div className="container d-flex flex-wrap">{movieCard}</div>
     </div>
   );
 }

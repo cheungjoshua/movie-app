@@ -40,7 +40,8 @@ export default function Nav({ setMovies }) {
   });
 
   return (
-    <nav>
+    <nav className="container d-flex justify-content-between vh-10">
+      <h1>Movie App</h1>
       <select
         value={value}
         onChange={(e) => {
