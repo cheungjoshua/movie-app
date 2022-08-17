@@ -23,13 +23,23 @@ export default function Nav({ setMovies }) {
 
   // Fetch by genres
   const fetchByGenres = async (id) => {
-    const {
-      data: { results },
-    } = await axios.get(`${API_URL}/discover/movie`, {
-      params: { api_key: API_KEY, with_genres: id },
-    });
-    console.log(results);
-    setMovies(results);
+    if (id === "0") {
+      const {
+        data: { results },
+      } = await axios.get(`${API_URL}/movie/popular`, {
+        params: { api_key: API_KEY },
+      });
+
+      setMovies(results);
+    } else {
+      const {
+        data: { results },
+      } = await axios.get(`${API_URL}/discover/movie`, {
+        params: { api_key: API_KEY, with_genres: id },
+      });
+
+      setMovies(results);
+    }
   };
 
   useEffect(() => {
