@@ -6,7 +6,9 @@ const API_URL = "https://api.themoviedb.org/3";
 
 export default function Nav({ setMovies }) {
   const [genres, setGenres] = useState([{ id: 0, name: "None" }]);
-  const [value, setValue] = useState("None");
+  // const [value, setValue] = useState("None");
+
+  let value;
 
   // Fetch Genres
   const fetchGenres = async () => {

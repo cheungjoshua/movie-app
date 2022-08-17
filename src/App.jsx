@@ -7,7 +7,7 @@ import MovieCard from "./components/MovieCard";
 
 const API_KEY = process.env.REACT_APP_API_KEY;
 const API_URL = "https://api.themoviedb.org/3";
-const SEARCH = "https://api.themoviedb.org/3/search/company";
+// const SEARCH = "https://api.themoviedb.org/3/search/company";
 
 function App() {
   const [movies, setMovies] = useState([]);
