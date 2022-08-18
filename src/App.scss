@@ -3,6 +3,16 @@ body {
   color: white;
 }
 
+.movieCard {
+  width: 75vw;
+}
+
+@media only screen and (min-width: 900px) {
+  .movieCard {
+    width: 25vw;
+  }
+}
+
 // .movies_container {
 //   display: flex;
 //   flex-direction: row;

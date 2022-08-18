@@ -36,7 +36,9 @@ function App() {
     <div className="App">
       <Nav setMovies={setMovies} />
 
-      <div className="container d-flex flex-wrap">{movieCard}</div>
+      <div className="container flex-xs-column flex-lg-row d-flex flex-wrap ">
+        {movieCard}
+      </div>
     </div>
   );
 }
