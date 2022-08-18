@@ -6,6 +6,14 @@ This project mainly idea is practice using Axios to do API get request from The 
 
 ### Link [https://simple-movie-app-by-josh.netlify.app/](https://simple-movie-app-by-josh.netlify.app/)
 
+### Home
+
+!["Screenshot of home"](https://github.com/xli52/final/blob/main/client/docs/images/home_page.png?raw=true)
+
+### Dropdown menu
+
+!["Screenshot of dropdown"](https://github.com/xli52/final/blob/main/client/docs/images/home_page.png?raw=true)
+
 ## Available Scripts
 
 In the project directory, you can run:
