@@ -4,15 +4,17 @@ A simple movie app that user can render movies in different category by click th
 
 This project mainly idea is practice using Axios to do API get request from The Moive Database to render and display. Able to get used the process of the async/await in javascript by doing this project. And learn using React-Bootstrap and Bootstrap for components and style.
 
-### Link [https://simple-movie-app-by-josh.netlify.app/](https://simple-movie-app-by-josh.netlify.app/)
+### Link
+
+[https://simple-movie-app-by-josh.netlify.app/](https://simple-movie-app-by-josh.netlify.app/)
 
 ### Home
 
-!["Screenshot of home"](https://github.com/xli52/final/blob/main/client/docs/images/home_page.png?raw=true)
+!["Screenshot of home"](https://github.com/cheungjoshua/movie-app/blob/main/doc/home.png?raw=true)
 
 ### Dropdown menu
 
-!["Screenshot of dropdown"](https://github.com/xli52/final/blob/main/client/docs/images/home_page.png?raw=true)
+!["Screenshot of dropdown"](https://github.com/cheungjoshua/movie-app/blob/main/doc/dropdown.png?raw=true)
 
 ## Available Scripts
 
